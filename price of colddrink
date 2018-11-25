@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  char P,p,T,t,S,s;
+  char c;
+printf("enter the code of the colddrink");
+scanf("%d" &c);
+if(c==T  || c==t)
+printf("thumbs up\n $12");
+else
+if (c==P || c==p)
+printf ("pepsi\n $13");
+else
+if (c==S  ||c==s)
+printf ("sprite \n $12.5");
+else
+ printf("not available");
+ return 0;
+ }
